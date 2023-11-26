@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;</TargetFrameworks>
+		<LangVersion>preview</LangVersion>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(TargetFramework)' == 'netstandard2.0'">
+		<!--netstandard2.1 以下的不警告非空检查-->
+		<!-- <NoWarn>$(NoWarn);nullable</NoWarn> -->
+	</PropertyGroup>
+
+
+
+</Project>

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>netstandard2.0;</TargetFrameworks>
+		<LangVersion>preview</LangVersion>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="EPPlus" Version="5.0.0-beta" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\TableRW\TableRW.csproj" />
+	</ItemGroup>
+
+</Project>
